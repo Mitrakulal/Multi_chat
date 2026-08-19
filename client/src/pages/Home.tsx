@@ -429,6 +429,12 @@ export default function Home() {
     if (!isRunning) return;
     runId.current += 1;
     abortControllers.current.forEach((controller) => controller.abort("Stopped by operator"));
+    setUsers((current) => current.map((user) => (
+      user.status === "queued" || user.status === "waiting" || user.status === "streaming"
+        ? { ...user, status: "cancelled", error: "Cancelled by operator." }
+        : user
+    )));
+    setIsRunning(false);
     addEvent("warn", "Stop signal sent to every active virtual user.");
   };
 
