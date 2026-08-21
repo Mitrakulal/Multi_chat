@@ -18,7 +18,7 @@ Each hotel folder is independently runnable. The corpus uses official website pa
 | `the_verda_saffron` | The Verda Saffron | no | 2 | verify official URL |
 | `hotel_shoolin_comforts` | Hotel Shoolin Comforts / Shoolin Group | yes | 15 | official pages bundled |
 | `royal_plaza_suites` | Royal Plaza Suites | no | 2 | verify official URL |
-| `river_roost_resorts` | River Roost Resorts | no | 2 | verify official URL |
+| `river_roost_resorts` | River Roost Resorts any of the line | no | 2 | verify official URL |
 | `hotel_bms` | Hotel BMS | no | 2 | verify official URL |
 | `hotel_janatha_deluxe` | Hotel Janatha Deluxe | no | 2 | verify official URL |
 | `hotel_prestige_mangalore` | Hotel Prestige, Mangaluru | no | 2 | verify official URL |

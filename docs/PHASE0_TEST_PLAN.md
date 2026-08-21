@@ -72,6 +72,8 @@ Use synthetic prompts in Phase 0. Do not put customer data, API secrets, persona
 
 At the end of Phase 0, record the model/version, server settings, dashboard settings, test date, p50/p95 TTFT, p50/p95 elapsed time, errors, chosen public concurrency cap, queue cap, maximum input context, maximum output tokens, and the reason for each selected limit. These values become the initial gateway policy for Phase 1.
 
+
+Overview & Goal Multi_chat is a multi-tenant RAG (Retrieval-Augmented Generation) assistant suite designed for 25 hotels and hospitality venues across Mangaluru (e.g., Hotel Deepa Comforts, Goldfinch Hotel, The Ocean Pearl, Ginger Mangalore, Summer Sands Beach Resort, Vivanta Mangalore, etc.).
 ## Sources
 
 [1]: https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md "llama.cpp server documentation"
