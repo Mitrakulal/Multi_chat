@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lead-report-context",
+    "title": "Lead report context",
+    "text": "AJ Grand Hotel. Lead report context: Public property information describes a newer upscale hotel with two restaurants, outdoor pool, gym and central location. Official website/contact URL requires verification.",
+    "url": "file:///mangaluru_hotel_leads.md",
+    "source_type": "lead_report"
+  },
+  {
+    "id": "coverage-note",
+    "title": "Coverage and verification note",
+    "text": "This is a demo corpus only. No verified official website content was available for AJ Grand Hotel in the supplied lead report. Do not infer room rates, availability, capacities, timings, policies, payment instructions, or contact details. Verify an official URL and approved property fact sheet before production use. Public property information describes a newer upscale hotel with two restaurants, outdoor pool, gym and central location. Official website/contact URL requires verification.",
+    "url": "https://example.invalid/verify-official-url",
+    "source_type": "coverage_note"
+  }
+]

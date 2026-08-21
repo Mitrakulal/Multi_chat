@@ -1,0 +1,17 @@
+{
+  "slug": "hotel_moti_mahal",
+  "name": "Hotel Moti Mahal",
+  "url": null,
+  "tagline": "Central city rooms and hospitality enquiries",
+  "colors": [
+    "#3c2a22",
+    "#bb8d4a"
+  ],
+  "report": "Public listings describe approximately 90 rooms, free breakfast/Wi-Fi, parking and 24-hour room service. Official URL and contacts require verification.",
+  "verification_needed": true,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

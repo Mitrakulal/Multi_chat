@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lead-report-context",
+    "title": "Lead report context",
+    "text": "Royal Plaza Suites. Lead report context: Suite/apartment-style property. Public discovery sources list it among Mangaluru stays; verify official site, address and facilities.",
+    "url": "file:///mangaluru_hotel_leads.md",
+    "source_type": "lead_report"
+  },
+  {
+    "id": "coverage-note",
+    "title": "Coverage and verification note",
+    "text": "This is a demo corpus only. No verified official website content was available for Royal Plaza Suites in the supplied lead report. Do not infer room rates, availability, capacities, timings, policies, payment instructions, or contact details. Verify an official URL and approved property fact sheet before production use. Suite/apartment-style property. Public discovery sources list it among Mangaluru stays; verify official site, address and facilities.",
+    "url": "https://example.invalid/verify-official-url",
+    "source_type": "coverage_note"
+  }
+]

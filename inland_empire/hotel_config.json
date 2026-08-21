@@ -1,0 +1,17 @@
+{
+  "slug": "inland_empire",
+  "name": "Inland Empire",
+  "url": null,
+  "tagline": "Event-brief intake for venue enquiries",
+  "colors": [
+    "#1f493e",
+    "#d0aa54"
+  ],
+  "report": "Premium/mid-market hotel and event prospect. Verify official website, capacity, packages, accommodation, food and access.",
+  "verification_needed": true,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

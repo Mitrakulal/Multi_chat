@@ -1,0 +1,17 @@
+{
+  "slug": "ginger_mangalore",
+  "name": "Ginger Mangalore",
+  "url": "https://www.gingerhotels.com/",
+  "tagline": "A concise business-travel assistant",
+  "colors": [
+    "#9f2d24",
+    "#f0b54d"
+  ],
+  "report": "Branded business hotel near NH 66 and Infosys, with recurring corporate questions about check-in, transport, invoices, Wi-Fi and dining. Locate the Mangaluru property page on the chain site.",
+  "verification_needed": false,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

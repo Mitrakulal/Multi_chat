@@ -1,0 +1,17 @@
+{
+  "slug": "hotel_srinivas",
+  "name": "Hotel Srinivas",
+  "url": "https://www.srinivashotel.com/",
+  "tagline": "Rooms, pure vegetarian dining and city services",
+  "colors": [
+    "#5b2b1f",
+    "#d39b4a"
+  ],
+  "report": "Established city hotel with rooms, pure vegetarian food, banquet halls, car rental, business centre, pick-up/drop, outdoor catering and EV charging.",
+  "verification_needed": false,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

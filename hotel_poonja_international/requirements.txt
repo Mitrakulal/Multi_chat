@@ -1,0 +1,6 @@
+streamlit
+numpy
+requests
+beautifulsoup4
+sentence-transformers
+openai

@@ -1,0 +1,17 @@
+{
+  "slug": "the_verda_saffron",
+  "name": "The Verda Saffron",
+  "url": null,
+  "tagline": "A venue-focused stay and event assistant",
+  "colors": [
+    "#5b3b1a",
+    "#d5a24c"
+  ],
+  "report": "Appears in Mangaluru wedding and hotel venue discovery sources. Use only verified current property pages before outreach.",
+  "verification_needed": true,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

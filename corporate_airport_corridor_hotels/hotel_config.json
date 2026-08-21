@@ -1,0 +1,17 @@
+{
+  "slug": "corporate_airport_corridor_hotels",
+  "name": "Corporate & Airport-Corridor Business Hotels",
+  "url": null,
+  "tagline": "A reusable business-travel assistant demo",
+  "colors": [
+    "#223e51",
+    "#cba25a"
+  ],
+  "report": "Market-segment placeholder from the lead report, not a single hotel. Replace with a verified property before active outreach.",
+  "verification_needed": true,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

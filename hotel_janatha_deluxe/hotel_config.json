@@ -1,0 +1,17 @@
+{
+  "slug": "hotel_janatha_deluxe",
+  "name": "Hotel Janatha Deluxe",
+  "url": null,
+  "tagline": "Simple, multilingual city-hotel FAQ",
+  "colors": [
+    "#6b311f",
+    "#d39c4e"
+  ],
+  "report": "Established mid-market city hotel. Verify current official website, contact details, rooms, dining, parking and policies.",
+  "verification_needed": true,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

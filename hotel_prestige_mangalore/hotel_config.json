@@ -1,0 +1,17 @@
+{
+  "slug": "hotel_prestige_mangalore",
+  "name": "Hotel Prestige, Mangaluru",
+  "url": null,
+  "tagline": "A searchable front door for city stays",
+  "colors": [
+    "#22384b",
+    "#c9a15d"
+  ],
+  "report": "City hotel prospect with recurring room, location, parking, dining and business-travel questions. Official URL requires verification.",
+  "verification_needed": true,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

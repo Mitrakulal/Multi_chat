@@ -1,0 +1,17 @@
+{
+  "slug": "hotel_bms",
+  "name": "Hotel BMS",
+  "url": null,
+  "tagline": "Banquet-first hotel lead qualification",
+  "colors": [
+    "#243d52",
+    "#c28f48"
+  ],
+  "report": "Social promotion highlights banquet halls for conferences, birthdays, weddings and luncheons. Official website and address require verification.",
+  "verification_needed": true,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

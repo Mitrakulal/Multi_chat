@@ -1,0 +1,17 @@
+{
+  "slug": "hotel_ak_international",
+  "name": "Hotel A.K. International",
+  "url": null,
+  "tagline": "A controlled FAQ pilot for pre-booking questions",
+  "colors": [
+    "#4c2822",
+    "#c8964b"
+  ],
+  "report": "Mid-market city hotel prospect. Verify official website, address, rooms, parking and reservation contacts.",
+  "verification_needed": true,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

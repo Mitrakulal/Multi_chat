@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lead-report-context",
+    "title": "Lead report context",
+    "text": "Hotel Moti Mahal. Lead report context: Public listings describe approximately 90 rooms, free breakfast/Wi-Fi, parking and 24-hour room service. Official URL and contacts require verification.",
+    "url": "file:///mangaluru_hotel_leads.md",
+    "source_type": "lead_report"
+  },
+  {
+    "id": "coverage-note",
+    "title": "Coverage and verification note",
+    "text": "This is a demo corpus only. No verified official website content was available for Hotel Moti Mahal in the supplied lead report. Do not infer room rates, availability, capacities, timings, policies, payment instructions, or contact details. Verify an official URL and approved property fact sheet before production use. Public listings describe approximately 90 rooms, free breakfast/Wi-Fi, parking and 24-hour room service. Official URL and contacts require verification.",
+    "url": "https://example.invalid/verify-official-url",
+    "source_type": "coverage_note"
+  }
+]

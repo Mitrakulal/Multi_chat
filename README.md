@@ -1,33 +1,41 @@
-# Phase 0 LLM Load Tester
+# Multi_chat — 25 Mangaluru hotel RAG demos
 
-This project is a browser-based **Phase 0 capacity-testing instrument** for a local, OpenAI-compatible LLM server. It launches multiple independent streaming requests, displays every virtual user’s output and status, and reports the latency evidence needed to choose safe initial concurrency limits.
+Each hotel folder is independently runnable. The corpus uses official website pages when an official URL was available, and otherwise includes a clearly labeled verification-needed corpus based only on the supplied lead report.
 
-It is designed for a Mac mini running a small local model through llama.cpp, Ollama, MLX-LM, or another endpoint that implements the OpenAI Chat Completions streaming format. It is intentionally a **testing dashboard**, not a production API gateway and not a customer-facing billing system.
+| Folder | Hotel / segment | Website scraped | Chunks | Status |
+|---|---|---:|---:|---|
+| `goldfinch_hotel_mangaluru` | Goldfinch Hotel Mangaluru | yes | 14 | official pages bundled |
+| `the_ocean_pearl` | The Ocean Pearl | yes | 15 | official pages bundled |
+| `hotel_deepa_comforts` | Hotel Deepa Comforts | yes | 9 | official pages bundled |
+| `hotel_srinivas` | Hotel Srinivas | yes | 9 | official pages bundled |
+| `summer_sands_beach_resort` | Summer Sands Beach Resort | yes | 9 | official pages bundled |
+| `hotel_poonja_international` | Hotel Poonja International | yes | 8 | official pages bundled |
+| `aj_grand_hotel` | AJ Grand Hotel | no | 2 | verify official URL |
+| `vivanta_mangalore` | Vivanta Mangalore, Old Port Road | yes | 15 | official pages bundled |
+| `hotel_sai_palace` | Hotel Sai Palace Mangalore | yes | 17 | official pages bundled |
+| `ginger_mangalore` | Ginger Mangalore | yes | 27 | official pages bundled |
+| `hotel_moti_mahal` | Hotel Moti Mahal | no | 2 | verify official URL |
+| `the_verda_saffron` | The Verda Saffron | no | 2 | verify official URL |
+| `hotel_shoolin_comforts` | Hotel Shoolin Comforts / Shoolin Group | yes | 15 | official pages bundled |
+| `royal_plaza_suites` | Royal Plaza Suites | no | 2 | verify official URL |
+| `river_roost_resorts` | River Roost Resorts | no | 2 | verify official URL |
+| `hotel_bms` | Hotel BMS | no | 2 | verify official URL |
+| `hotel_janatha_deluxe` | Hotel Janatha Deluxe | no | 2 | verify official URL |
+| `hotel_prestige_mangalore` | Hotel Prestige, Mangaluru | no | 2 | verify official URL |
+| `hotel_veenu_international` | Hotel Veenu International | no | 2 | verify official URL |
+| `mangalore_international_hotel` | Mangalore International Hotel | no | 2 | verify official URL |
+| `hotel_ak_international` | Hotel A.K. International | no | 2 | verify official URL |
+| `inland_empire` | Inland Empire | no | 2 | verify official URL |
+| `the_ocean_pearl_inn_bejai` | The Ocean Pearl Inn, Bejai | yes | 13 | official pages bundled |
+| `mangaluru_convention_banquet_operators` | Mangaluru Convention & Banquet Operators | no | 2 | verify official URL |
+| `corporate_airport_corridor_hotels` | Corporate & Airport-Corridor Business Hotels | no | 2 | verify official URL |
 
-## Documentation map
-
-| Document | Use it for |
-|---|---|
-| [Operator guide](docs/PHASE0_OPERATOR_GUIDE.md) | Full setup, CORS, key handling, dashboard operation, metric interpretation, and troubleshooting. |
-| [Test plan](docs/PHASE0_TEST_PLAN.md) | Repeatable baseline, concurrency, context, output, and recovery experiments. |
-| [Results template](docs/PHASE0_RESULTS_TEMPLATE.md) | Recording measurements and choosing tested operating limits. |
-| [Phase 1 handoff](docs/PHASE1_HANDOFF.md) | Turning the measured limits into gateway policy for a protected multi-tenant API. |
-
-## Local launch
-
-Run this dashboard **on the same trusted Mac** as the local model server for Phase 0. This avoids exposing an API key to a hosted webpage and avoids testing Cloudflare rather than the model.
-
+## Run a demo
 ```bash
-pnpm install
-pnpm dev
+cd hotel_deepa_comforts
+pip install -r requirements.txt
+python3 -m http.server 8080 --directory web
 ```
 
-Open the local URL shown by Vite, normally `http://localhost:3000`. Configure the dashboard with an endpoint base such as `http://127.0.0.1:8080/v1`; it adds `/chat/completions` automatically.
+Set `LLM_PROVIDER=openai-compatible` and `LLM_MODEL=<your-model>` only when you want to use a compatible hosted LLM; the default extractive provider requires no LLM key.
 
-> Do not deploy this dashboard publicly and paste a reusable production API key into it. For Phase 0, a browser-held key is acceptable only on a machine you control, with an ephemeral or local-only testing credential.
-
-## Primary capability
-
-The dashboard sends one request per virtual user, optionally with a small launch ramp. It records response-start time, time to first non-empty streamed token, total elapsed time, errors, and any usage fields the inference server returns. It does **not** invent token counts when the server omits streaming usage.
-
-The recommended first test is one virtual user with a short prompt and a 128-token output cap. Repeat the exact same run with two users. Change one variable per test and write the result into the supplied template.

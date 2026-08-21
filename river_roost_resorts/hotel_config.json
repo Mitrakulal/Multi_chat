@@ -1,0 +1,17 @@
+{
+  "slug": "river_roost_resorts",
+  "name": "River Roost Resorts",
+  "url": null,
+  "tagline": "Riverside stays and event qualification",
+  "colors": [
+    "#1c5144",
+    "#d0a94f"
+  ],
+  "report": "Resort and event/wedding venue. Public sources describe riverside accommodation, pool and restaurant; verify official property website.",
+  "verification_needed": true,
+  "examples": [
+    "What rooms or stays are available?",
+    "What dining, amenities or event facilities are listed?",
+    "How do I contact reservations?"
+  ]
+}

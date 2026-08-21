@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lead-report-context",
+    "title": "Lead report context",
+    "text": "Hotel BMS. Lead report context: Social promotion highlights banquet halls for conferences, birthdays, weddings and luncheons. Official website and address require verification.",
+    "url": "file:///mangaluru_hotel_leads.md",
+    "source_type": "lead_report"
+  },
+  {
+    "id": "coverage-note",
+    "title": "Coverage and verification note",
+    "text": "This is a demo corpus only. No verified official website content was available for Hotel BMS in the supplied lead report. Do not infer room rates, availability, capacities, timings, policies, payment instructions, or contact details. Verify an official URL and approved property fact sheet before production use. Social promotion highlights banquet halls for conferences, birthdays, weddings and luncheons. Official website and address require verification.",
+    "url": "https://example.invalid/verify-official-url",
+    "source_type": "coverage_note"
+  }
+]
